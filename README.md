@@ -1,3 +1,3 @@
-Blog Project built on Vanilla JS & Sass.
+Blog Project built on Vanilla JS.
 Platform environment: Node.js
 Tool: Webpack
