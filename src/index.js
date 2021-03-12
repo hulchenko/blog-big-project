@@ -1,5 +1,7 @@
-console.log('Hello World!');
+//Referencing to DOM elements in HTML document:
+import { HeaderComponent } from './components/header.component';
+import { NavigationComponent } from './components/navigation.component';
 
-async function app() {
-  await fetch('Test');
-}
+new HeaderComponent('header');
+
+const navigation = new NavigationComponent('navigation');
