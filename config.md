@@ -24,3 +24,10 @@
     2. Pull Firebase project URL inside Realtime DB
     3. Compile created form into an object, import into create.component.js
     4. Test it through console>network>posts.json>headers/preview and response tabs
+15. Receiving data from the server
+    1. Receive list of posts from DB, pull IDs for each post, compile objects into an array
+    2. Show received data in HTML 'Posts' section
+    3. Add news/note color difference
+    4. Add button 'save'
+    5. Add empty HTML on tab switch to prevent posts duplicates
+16. Add loader to Posts tab

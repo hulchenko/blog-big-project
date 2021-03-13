@@ -28,7 +28,7 @@ async function submitHandler(event) {
     };
 
     await apiService.createPost(formData);
-
     this.form.clear();
+    alert('Submitted to DataBase');
   }
 }
