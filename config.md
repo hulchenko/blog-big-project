@@ -15,3 +15,5 @@
    2. Form initialization
       data gathering
       data sending to server
+10. Add validators (forbidding empty field and requiring minimum required characters) to the form.
+11. Add validation errors to the user
