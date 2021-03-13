@@ -10,7 +10,7 @@ module.exports = {
   },
   devServer: {
     contentBase: __dirname + '/dist',
-    hot: true,
+    /* hot: true, */ //this fixes the problem with web server
   },
   plugins: [
     new HtmlWebpackPlugin({
