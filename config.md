@@ -17,3 +17,4 @@
       data sending to server
 10. Add validators (forbidding empty field and requiring minimum required characters) to the form.
 11. Add validation errors to the user
+12. Add clear form upon valid submission
