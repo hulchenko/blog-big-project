@@ -10,4 +10,8 @@
 6. Header removal logic
 7. Navigation component creation
 8. Navigation tabs switch logic
-9. Form component creation
+9. Form creation
+   1. Component creation
+   2. Form initialization
+      data gathering
+      data sending to server
