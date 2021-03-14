@@ -49,3 +49,4 @@
     3. firebase init > Hosting > Existing Project > hulchenko-blog-project-js > dist(Public Folder) > Yes(single-page app) > No (GitHub auto deploy) > No (index.html rewrite)
     4. firebase deploy
     5. Firebase URL: https://hulchenko-blog-project-js.web.app/
+30. Reset Realtime Database. Add first/default post.
