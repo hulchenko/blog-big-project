@@ -7,3 +7,7 @@ DataBase Server: Firebase (Realtime Database > Test mode)
 Tool: Webpack / Babel
 
 Step by step cfg file: https://github.com/hulchenko/blog-big-project/blob/main/config.md
+
+LIVE DEMO from Firebase:
+
+https://hulchenko-blog-project-js.web.app/
