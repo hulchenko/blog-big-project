@@ -30,4 +30,7 @@
     3. Add news/note color difference
     4. Add button 'save'
     5. Add empty HTML on tab switch to prevent posts duplicates
-16. Add loader to Posts tab
+16. Add loader animation to Posts tab(need to be mindful of the positioning of the variable and element)
+17. Add 'Save' button functionality(saves to local storage)
+18. Add name/color change, remain proper color after reload/tab switch on action
+19. Add saved posts to 'Favorites' tab
