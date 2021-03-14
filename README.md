@@ -1,3 +1,8 @@
+LIVE DEMO from Firebase:
+
+https://hulchenko-blog-project-js.web.app/
+
+----------------------------------
 Blog Project built on Vanilla JS.
 
 Platform environment: Node.js
@@ -8,6 +13,3 @@ Tool: Webpack / Babel
 
 Step by step cfg file: https://github.com/hulchenko/blog-big-project/blob/main/config.md
 
-LIVE DEMO from Firebase:
-
-https://hulchenko-blog-project-js.web.app/
