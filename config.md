@@ -40,7 +40,10 @@
 23. Remove button in Favorites posts
 24. Minimize project's size with Webpack Production mode
 25. Minor tweaks and fixes
-26. Deploy project to Firebase
+26. Fix list.length error in console upon uploading (add list && list.length)
+27. Fix CSS Mustard UI framework (type="text" is not included by default)
+28. Replace post ID with post's name in Favorites tab list
+29. Deploy project to Firebase
     1. npm install -g firebase-tools
     2. firebase login
     3. firebase init > Hosting > Existing Project > hulchenko-blog-project-js > dist(Public Folder) > Yes(single-page app) > No (GitHub auto deploy) > No (index.html rewrite)

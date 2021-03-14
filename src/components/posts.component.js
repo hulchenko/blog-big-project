@@ -30,23 +30,25 @@ export class PostsComponent extends Component {
 function buttonHandler(event) {
   const $el = event.target;
   const id = $el.dataset.id;
+  const title = $el.dataset.title;
 
   if (id) {
     // save/delete the post's key into/from an array with the help of local storage
     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+    const candidate = favorites.find(p => p.id === id)
 
-    if (favorites.includes(id)) {
+    if (candidate) {
       // delete element
       $el.textContent = 'Save';
       $el.classList.add('button-primary');
       $el.classList.remove('button-danger');
-      favorites = favorites.filter((fId) => fId !== id);
+      favorites = favorites.filter(p => p.id !== id);
     } else {
       // add element
       $el.textContent = 'Delete';
       $el.classList.remove('button-primary');
       $el.classList.add('button-danger');
-      favorites.push(id);
+      favorites.push({id, title});
     }
 
     localStorage.setItem('favorites', JSON.stringify(favorites));
