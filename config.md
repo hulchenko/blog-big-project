@@ -33,4 +33,16 @@
 16. Add loader animation to Posts tab(need to be mindful of the positioning of the variable and element)
 17. Add 'Save' button functionality(saves to local storage)
 18. Add name/color change, remain proper color after reload/tab switch on action
-19. Add saved posts to 'Favorites' tab
+19. Show saved posts to 'Favorites' tab
+20. Create responsiveness on Favorites post click
+21. Add loader animation on Favorites post click
+22. Export post template into a separate folder/file to minimize the code
+23. Remove button in Favorites posts
+24. Minimize project's size with Webpack Production mode
+25. Minor tweaks and fixes
+26. Deploy project to Firebase
+    1. npm install -g firebase-tools
+    2. firebase login
+    3. firebase init > Hosting > Existing Project > hulchenko-blog-project-js > dist(Public Folder) > Yes(single-page app) > No (GitHub auto deploy) > No (index.html rewrite)
+    4. firebase deploy
+    5. Firebase URL: https://hulchenko-blog-project-js.web.app/

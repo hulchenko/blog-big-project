@@ -1,4 +1,5 @@
-//Referencing to DOM elements in HTML document:
+/*Main file, to create application setup.
+  Referencing to different files, DOM elements*/
 import { HeaderComponent } from './components/header.component';
 import { NavigationComponent } from './components/navigation.component';
 import { CreateComponent } from './components/create.component';
@@ -13,7 +14,7 @@ const navigation = new NavigationComponent('navigation');
 const loader = new LoaderComponent('loader');
 const posts = new PostsComponent('posts', { loader: loader });
 const create = new CreateComponent('create');
-const favorite = new FavoriteComponent('favorite');
+const favorite = new FavoriteComponent('favorite', { loader: loader });
 
 navigation.registerTabs([
   { name: 'create', component: create },

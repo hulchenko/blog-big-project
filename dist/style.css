@@ -59,3 +59,9 @@ textarea {
 .multi-line {
   white-space: pre-line;
 }
+
+.center {
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
